@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.demo-container {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  background-color: #999;
+  border: 1px solid #000;
+  position: relative;
+
+  font-size: 28px;
+}
+
+.ui-textarea {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 3px;
+}
+
+.ui-textarea textarea {
+  resize: none;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 1em;
+  padding: 0;
+  font-size: inherit;
+  outline: none;
+}
+
+.ui-textarea .input-element {
+}
+.ui-textarea .shadow-element {
+  position: absolute;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  padding: 0 3px;
+}
